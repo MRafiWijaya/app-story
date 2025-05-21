@@ -188,7 +188,7 @@ export function generateUnsubscribeButtonTemplate() {
 export function generateSaveStoryButtonTemplate() {
   return `
   <button id="story-detail-save" class="btn btn-transparent">
-    Simpan Story <i class="fas fa-bookmark"></i>
+    Simpan Story <i class="far fa-bookmark"></i>
   </button>
 `;
 }
@@ -196,7 +196,7 @@ export function generateSaveStoryButtonTemplate() {
 export function generateRemoveStoryButtonTemplate() {
   return `
   <button id="story-detail-remove" class="btn btn-transparent">
-    Buang Story <i class="fas fa-bookmark"></i>
+    Buang Story <i class="fas fa-bookmark-slash"></i>
   </button>
 `;
 }
